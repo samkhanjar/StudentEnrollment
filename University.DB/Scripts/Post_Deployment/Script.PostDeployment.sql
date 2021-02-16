@@ -1,0 +1,3 @@
+﻿BEGIN TRANSACTION
+:r .\..\InitialData\DefaultData.sql
+COMMIT TRANSACTION
