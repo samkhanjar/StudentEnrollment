@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "University.Common", "Univer
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "University.DB", "University.DB\University.DB.sqlproj", "{116C9B6A-A87A-499F-A5ED-AC668B8B31B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.Service", "University.Service\University.Service.csproj", "{B4FC9EB6-510D-4D54-BC7D-0D10B0027A6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "University.Service", "University.Service\University.Service.csproj", "{B4FC9EB6-510D-4D54-BC7D-0D10B0027A6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.Api.Test", "University.Api.Test\University.Api.Test.csproj", "{40971B74-B6FC-4D3C-A8F4-F81A6F80DA65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{B4FC9EB6-510D-4D54-BC7D-0D10B0027A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4FC9EB6-510D-4D54-BC7D-0D10B0027A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4FC9EB6-510D-4D54-BC7D-0D10B0027A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40971B74-B6FC-4D3C-A8F4-F81A6F80DA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40971B74-B6FC-4D3C-A8F4-F81A6F80DA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40971B74-B6FC-4D3C-A8F4-F81A6F80DA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40971B74-B6FC-4D3C-A8F4-F81A6F80DA65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
